@@ -1,0 +1,96 @@
+body{
+   background-color: #E1FCFD; 
+
+}
+
+.board{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 5px;
+    border-style: solid;
+    border-color: #4A5FC1;
+    margin-bottom: 15px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: #4A5FC1;
+    font-family:Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mode{
+    margin-bottom: 20px;
+    border: 4px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #9CF6FB;
+    border-color: #4A5FC1;
+    min-width: 200px;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    margin-bottom: 15px;
+}
+
+.error{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+button{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+button:nth-child(1):hover{
+    background-color: black;
+    color: white;
+}
+
+.buttons>button:nth-child(2):hover{
+    background-color: red;
+    color: white;
+}
+
+button:nth-child(3):hover{
+    background-color: yellow;
+    color: black;
+}
+
+button:nth-child(4):hover{
+    background-color: blue;
+    color: white;
+}
+
+button:nth-child(5):hover{
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+
+button:hover{
+   font-size: 102%;;
+}
+
